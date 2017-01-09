@@ -1,0 +1,32 @@
+<!DOCTYPE RCC><RCC version="0.1">
+<qresource>
+    <file>icons/files/File-New-icon.png</file>
+    <file>icons/files/open-icon.png</file>
+    <file>icons/files/Log-Out-icon.png</file>
+    <file>icons/files/open-icon.png</file>
+    <file>icons/files/save-icon.png</file>
+    <file>icons/files/about-icon.png</file>
+    <file>icons/files/help-icon.png</file>
+    <file>icons/files/addFibers.png</file>
+    <file>icons/files/compactMicro.png</file>
+    <file>icons/files/plotSettings.png</file>
+    <file>icons/files/patterned.png</file>
+    <file>icons/files/pointer.png</file>
+    <file>icons/files/red_button.png</file>
+    <file>icons/files/refresh.png</file>
+    <file>icons/RVEs/circ.png</file>
+    <file>icons/RVEs/Micro.png</file>
+    <file>icons/RVEs/RVE_iso_axis.png</file>
+    <file>icons/RVEs/circular.png</file>
+    <file>icons/RVEs/lobular2.png</file>
+    <file>icons/RVEs/lobular3.png</file>
+    <file>icons/RVEs/lobular3_plan.png</file>
+    <file>icons/RVEs/lobular4.png</file>
+    <file>icons/RVEs/spolygon3.png</file>
+    <file>icons/RVEs/spolygon4.png</file>
+    <file>icons/RVEs/ellipsis.png</file>
+    <file>icons/RVEs/ellipse_plan.png</file>
+    <file>icons/RVEs/localVf.png</file>
+    <file>icons/viper.png</file>
+</qresource>
+</RCC>
