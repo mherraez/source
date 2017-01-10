@@ -1,0 +1,30 @@
+
+##################################################
+PYTHON ENVIRONMENT FOR VIPER
+##################################################
+
+We will use conda to create our environment through a .yml file.
+
+1. Make sure conda is installed. 
+   Otherwise, you can install the light python version: miniconda (continuum analytics).
+   Or, if you already have python, install the package through pip.
+   >> pip install conda
+
+2. Create the environment using the following command:
+   >> conda env create -f py27Viper.yml
+
+3. Activate the new environment.
+   >> activate py27viper
+
+4. Manually install Box2D through 'wheel'. Box2D requires swig to be installed.
+   (py27viper)>> wheel install ...whl
+
+5. Manually install Shapely through 'wheel'
+   (py27viper)>> wheel install ...whl
+
+6. To run Viper, this new environment needs to be activated.
+   (py27viper)>> python main.py
+
+7. To deactivate the environment.
+   (py27viper)>> deactivate
+   >>

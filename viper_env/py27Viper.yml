@@ -1,0 +1,36 @@
+# run: conda env create --file py27viper.yml
+name: py27viper
+channels: !!python/tuple
+- defaults
+dependencies:
+- cycler=0.10.0=py27_0
+- icu=57.1=vc9_0
+- jpeg=8d=vc9_2
+- libpng=1.6.22=vc9_0
+- matplotlib=1.5.3=np111py27_1
+- mkl=11.3.3=1
+- numpy=1.11.2=py27_0
+- openssl=1.0.2j=vc9_0
+- pil=1.1.7=py27_0
+- pip=9.0.1=py27_0
+- pyparsing=2.1.4=py27_0
+- pyqt=5.6.0=py27_0
+- pyside=1.2.1=py27_0
+- python=2.7.12=0
+- python-dateutil=2.6.0=py27_0
+- pytz=2016.7=py27_0
+- qt=5.6.0=vc9_0
+- scipy=0.18.1=np111py27_0
+- setuptools=27.2.0=py27_1
+- sip=4.18=py27_0
+- six=1.10.0=py27_0
+- tk=8.5.18=vc9_0
+- vs2008_runtime=9.00.30729.1=2
+- wheel=0.29.0=py27_0
+- zlib=1.2.8=vc9_3
+- pip:
+  - box2d
+  #- cx-freeze-win
+  - Pygame
+  #- Shapely  # Install from wheel: wheel install Shapely....whl --force
+
